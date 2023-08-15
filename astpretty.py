@@ -6,6 +6,7 @@ import contextlib
 from typing import Any
 from typing import Generator
 from typing import Sequence
+from rich import print
 
 AST: tuple[type[Any], ...] = (ast.AST,)
 expr_context: tuple[type[Any], ...] = (ast.expr_context,)
